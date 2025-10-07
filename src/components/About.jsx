@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 import React from "react";
 import photo from "../assets/wallpaper1.jpg";
@@ -14,11 +15,27 @@ const About = () => {
             src={photo}
             alt="About Me"
             className="w-64 md:w-80 relative rounded-2xl shadow-2xl border-4 border-white hover:scale-105 transition-transform duration-300"
+=======
+import React from 'react';
+
+const About = () => {
+  return (
+    <section className="py-10 px-6 md:px-12 bg-white">
+      <div className="flex flex-col md:flex-row items-center gap-8">
+        
+        {/* Image Section */}
+        <div className="flex-1 flex justify-center">
+          <img
+            src="/assests/7.jpg"
+            alt="About"
+            className="w-60 md:w-80 rounded-lg shadow-md"
+>>>>>>> 28216ec59a2d8f9e5d8e3a49fef5f6fe8271178c
           />
         </div>
 
         {/* Content Section */}
         <div className="flex-1 text-center md:text-left">
+<<<<<<< HEAD
           <h2 className="text-3xl md:text-4xl font-extrabold mb-6 text-gray-900">
             About <span className="text-teal-600">Me</span> & Skills
           </h2>
@@ -67,6 +84,22 @@ const About = () => {
               className="inline-block border-2 border-teal-600 text-teal-600 px-6 py-3 rounded-lg hover:bg-teal-600 hover:text-white transition duration-300"
             >
               Download CV
+=======
+          <h2 className="text-2xl md:text-4xl font-bold mb-4 text-black">
+            About <span className="text-teal-700">My</span> Skills
+          </h2>
+          <h3 className="text-lg md:text-xl text-gray-700 mb-3">A Frontend Developer</h3>
+          <p className="text-sm md:text-base text-gray-600">
+            As a frontend developer I have a great knowledge of various frontend languages like
+            HTML, CSS and JavaScript...
+          </p>
+          <div className="mt-6">
+            <a
+              href="#"
+              className="inline-block bg-teal-700 text-white px-6 py-2 rounded-lg hover:bg-teal-800 transition"
+            >
+              Experience
+>>>>>>> 28216ec59a2d8f9e5d8e3a49fef5f6fe8271178c
             </a>
           </div>
         </div>
@@ -76,6 +109,9 @@ const About = () => {
 };
 
 export default About;
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 28216ec59a2d8f9e5d8e3a49fef5f6fe8271178c
