@@ -3,7 +3,7 @@ import photo from "../assets/wallpaper1.jpg";
 import resume from "../assets/resume.pdf";
 
 const About = () => {
-  return (
+  return (  
     <section className="py-20 px-6 md:px-12 bg-gradient-to-r from-gray-50 via-white to-gray-100">
       <div className="flex flex-col md:flex-row items-center gap-12 max-w-6xl mx-auto">
         
